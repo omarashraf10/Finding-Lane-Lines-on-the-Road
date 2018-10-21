@@ -34,7 +34,7 @@ My pipeline consisted of several steps i willl explain these in following lines.
 -then i define a polygon with an array called vertices and pass it to the function region_of_interest to only keep a specific
 region of the images.
 
-./test_images_output/lined_image3.jpg 
+![masked_image3](https://user-images.githubusercontent.com/33129729/47265643-8830a700-d52b-11e8-8777-b5a007e06996.jpg)
 
 -then i used the function hough_lines to draw lines in the pictures using the function draw lines which i will explain it .
 -finally i used weighted_img funnction to compine the initail images to the images output from hough_lines.
