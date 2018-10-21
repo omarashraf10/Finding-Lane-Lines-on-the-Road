@@ -37,7 +37,12 @@ region of the images.
 ![masked_image3](https://user-images.githubusercontent.com/33129729/47265643-8830a700-d52b-11e8-8777-b5a007e06996.jpg)
 
 -then i used the function hough_lines to draw lines in the pictures using the function draw lines which i will explain it .
+
+![lined_image3](https://user-images.githubusercontent.com/33129729/47265664-cf1e9c80-d52b-11e8-8383-0022569a8685.jpg)
+
 -finally i used weighted_img funnction to compine the initail images to the images output from hough_lines.
+
+![w_image3](https://user-images.githubusercontent.com/33129729/47265671-eb223e00-d52b-11e8-8519-ecee7f7abfe0.jpg)
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by looping for each line
 and choose the tallest line in the right and the tallest line in the left by using this formula math.sqrt((x2-x1)*(x2-x1)-(y2-y1)*(y2-y1) , when i find these two lines i get the slope and intersection of each of them by the function np.polyfit ,
